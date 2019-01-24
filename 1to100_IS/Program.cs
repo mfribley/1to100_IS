@@ -1,7 +1,7 @@
 ﻿/*
- * Author: Mikessa Fribley
- * Date: 1/22/2019
- * Comments: This C# Console application code demonstrates the use of
+   Author: Mikessa Fribley
+   Date: 1/22/2019
+   Comments: This C# Console application code demonstrates the use of
              iterative statements after getting input from users.  
 */
 
