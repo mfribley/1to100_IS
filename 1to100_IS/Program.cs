@@ -33,8 +33,8 @@ namespace _1to100_IS
                         ". This is the current integer value in the loop: " + VOI++);
                     } while (ValueOfInput > 0);
 
-                    Console.WriteLine("Press any key to exit.");
-                    Console.ReadKey(true);
+                    Console.WriteLine("Press the 'Enter' key to exit the application.");
+                    while (Console.ReadKey(true).Key != ConsoleKey.Enter);
                 }
 
                 else if ((ValueOfInput > 50) && (ValueOfInput <= 100))
@@ -45,23 +45,23 @@ namespace _1to100_IS
                         ". This is the current integer value in the loop: " + VOI++);
                     } while (ValueOfInput > 0);
 
-                    Console.WriteLine("Press any key to exit.");
-                    Console.ReadKey(true);
+                    Console.WriteLine("Press the 'Enter' key to exit the application.");
+                    while (Console.ReadKey(true).Key != ConsoleKey.Enter);
                 }
 
                 else
                 {
                     Console.WriteLine("Enter an integer between 0 and 100 next time.");
-                    Console.WriteLine("Press any key to exit.");
-                    Console.ReadKey(true);
+                    Console.WriteLine("Press the 'Enter' key to exit the application.");
+                    while (Console.ReadKey(true).Key != ConsoleKey.Enter);
                 }
             } // End of try.
 
             catch
             {
                 Console.WriteLine("Please use an integer data type next time.");
-                Console.WriteLine("Press any key to exit the program.");
-                Console.ReadKey(true);
+                Console.WriteLine("Press the 'Enter' key to exit the application.");
+                while (Console.ReadKey(true).Key != ConsoleKey.Enter);
             } // End of catch.
         } // End of main.
     } // End of class.
