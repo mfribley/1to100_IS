@@ -51,7 +51,7 @@ namespace _1to100_IS
 
                 else
                 {
-                    Console.WriteLine("Enter an integer between 0 and 100 next time.");
+                    Console.WriteLine("Enter an integer between 1 and 100 next time.");
                     Console.WriteLine("Press the 'Enter' key to exit the application.");
                     while (Console.ReadKey(true).Key != ConsoleKey.Enter);
                 }
